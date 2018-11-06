@@ -1,0 +1,16 @@
+var user ={
+  "firstName":"Thomas",
+   "lastName" : "panicker",
+   "age" :30,
+   "address" : {
+     "name":"mannakinil",
+     "strret":"Njalibhagom",
+     "city" : "Thiruavlla",
+      "pin" : 689582
+     }
+ };
+
+user.address.state = "Kerala";
+console.log("fisrt Name : " + user.firstName);
+console.log("user pincode : " + user.address.pin);
+console.log("user state : " + user.address.state);

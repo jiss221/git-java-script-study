@@ -1,0 +1,16 @@
+var a=42;
+var b=34;
+var c=a+b;
+var d="Hello Java script";
+var e=false;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+var f;
+console.log(f);
+
+var g=null;
+
+console.log(g);

@@ -1,0 +1,5 @@
+var gretting ="hello world";
+
+console.log("Wrpper object created for string primitive on call of length and dicarded ");
+
+console.log("Length : " + gretting.length);

@@ -1,0 +1,15 @@
+var a=10;
+var b=10;
+if(a == b){
+console.log("Both are equal using == Opeator");
+}
+var c=50;
+var d="50";
+if(c==d){
+  console.log("type conversion happended here c is moved to type string by == operator");
+}
+if(c===d){
+  console.log("They are equal ! don't expaect this to get exceuted ");
+}else{
+  console.log("=== best operator to comapre in java script");
+}

@@ -1,0 +1,11 @@
+console.log(typeof "hai");
+var a;
+console.log(typeof a);
+a=10;
+console.log(typeof a);
+a="hello Java Script"
+console.log(typeof a);
+a=true;
+console.log(typeof a);
+a=null
+console.log(typeof a);

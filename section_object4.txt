@@ -1,0 +1,20 @@
+var myObj={
+  "firstName":"Thomas",
+   "lastName" : "panicker",
+   "age" :30,
+   "1" : "One"
+ };
+
+myObj.visa=true;
+
+console.log(myObj);
+
+
+console.log("Accessing property defined outside:" + myObj.visa);
+console.log("Accesing  firstName using square bracket : " + myObj["firstName"]);
+console.log("protery staring with number can not be accessed by dot operator");
+console.log("propert straing with number can be accessed by bracket operator :" + myObj["1"]);
+
+var propertToLook ="lastName";
+
+console.log("Getting the dynamic property : " + myObj[propertToLook]);

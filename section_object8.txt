@@ -1,0 +1,17 @@
+var user ={
+  "firstName":"Thomas",
+   "lastName" : "panicker",
+    "middleName" : null,
+   "age" :30,
+   "address" : {
+     "name":"mannakinil",
+     "strret":"Njalibhagom",
+     "city" : "Thiruavlla",
+      "pin" : 689582
+     }
+ };
+
+
+delete user.age;
+console.log("User middle Name : " + user.age);
+console.log(user);

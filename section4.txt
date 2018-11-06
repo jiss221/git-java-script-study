@@ -1,0 +1,36 @@
+var a;
+
+if(a){
+} else{
+  console.log("undefined is false in javscript");
+}
+a=10;
+if(a){
+  console.log("non zero value of a is true in javascript");
+} 
+a=0
+
+if(a){
+  console.log("non zero value of a is true in javascript");
+} else {
+  console.log(" zero value of a is f;ase avascript");
+}
+
+a="hai";
+if(a){
+  console.log("string with  vlaue is true in java script");
+} else {
+  console.log("empty string is flase in java scrpit");
+}
+
+a="";
+if(a){
+  console.log("string with  vlaue is true in java script");
+} else {
+  console.log("empty string is flase in java scrpit");
+}
+a=null;
+if(a){
+} else{
+  console.log("null is flase in javascript");
+}

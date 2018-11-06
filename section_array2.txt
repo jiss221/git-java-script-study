@@ -1,0 +1,13 @@
+var myArray = ["hello","world","js"];
+
+console.log("Element : " + myArray[0]);
+
+myArray[3]='new js tutoril';
+
+console.log(myArray.length)
+
+myArray[87]="foo";
+
+myArray["test"]='java script test';
+
+console.log("Array : "+ myArray);

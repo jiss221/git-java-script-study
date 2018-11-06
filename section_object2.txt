@@ -1,0 +1,16 @@
+
+var myObj={
+  "firstName":"Thomas",
+   "lastName" : "panicker",
+   "age" :30
+ };
+
+myObj.visa=true;
+
+console.log(myObj);
+
+console.log("Age of the person: "+ myObj.age);
+
+console.log("Accessing property defined outside:" + myObj.visa);
+
+console.log("Accesing property not defined in the object gives : " + myObj.salary);

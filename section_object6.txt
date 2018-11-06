@@ -1,0 +1,16 @@
+var user ={
+  "firstName":"Thomas",
+   "lastName" : "panicker",
+   "age" :30,
+   "address" : {
+     "name":"mannakinil",
+     "strret":"Njalibhagom",
+     "city" : "Thiruavlla",
+      "pin" : 689582
+     }
+ };
+
+var user2=user;
+if(user === user2){
+  console.log("Both objects are equal");
+}

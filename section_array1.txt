@@ -1,0 +1,5 @@
+var myArray = ["hello","world","js"];
+
+console.log("Element : " + myArray[0]);
+
+myArray[3]='new js tutoril';
